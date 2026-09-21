@@ -9,6 +9,7 @@ export const profile = {
   phone: "082-181-9636",
   github: "https://github.com/kirin58",
   linkedin: "https://linkedin.com/in/pee-peerapat",
+  resumeUrl: "/Resume.jpg",
   bio: "นักศึกษาวิศวกรรมซอฟต์แวร์ชั้นปีที่ 3 มีพื้นฐานครบวงจร software development lifecycle (SDLC) ตั้งแต่ system analysis, database design ไปจนถึงการแปลง requirement ที่ซับซ้อนให้เป็นระบบที่ใช้งานได้จริง ชอบแก้ปัญหาและเขียนโค้ด พร้อมปรับตัวและร่วมงานในทุกบทบาทของสาย software engineering",
   avatarInitials: "PT",
   photo: "/profile.jpg",

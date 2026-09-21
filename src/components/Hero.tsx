@@ -40,11 +40,12 @@ export default function Hero() {
               ดูผลงานของผม →
             </a>
             <a
-              href={profile.linkedin}
+              href={profile.resumeUrl}
               target="_blank"
+              rel="noopener noreferrer"
               className="rounded-full border-2 border-emerald-200 bg-white px-7 py-3 text-sm font-semibold text-emerald-700 transition hover:border-emerald-300 hover:bg-emerald-50"
             >
-              ดู LinkedIn
+              ดูเรซูเม่ 📄
             </a>
           </div>
 

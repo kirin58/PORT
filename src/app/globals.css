@@ -1,26 +1,46 @@
 @import "tailwindcss";
 
+@theme {
+  --font-sans: var(--font-sans-th), ui-sans-serif, system-ui, sans-serif;
+}
+
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #f3faf4;
+  --foreground: #022c1f;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+html {
+  scroll-behavior: smooth;
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-sans-th), ui-sans-serif, system-ui, sans-serif;
+}
+
+::selection {
+  background: #a7f3d0;
+  color: #064e3b;
+}
+
+/* soft dotted pattern for hero */
+.bg-dots {
+  background-image: radial-gradient(#a7f3d0 1.5px, transparent 1.5px);
+  background-size: 22px 22px;
+}
+
+/* thin scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #ecfdf5;
+}
+::-webkit-scrollbar-thumb {
+  background: #6ee7b7;
+  border-radius: 8px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #34d399;
 }

@@ -4,6 +4,7 @@ import About from "@/components/About";
 import Skills from "@/components/Skills";
 import Projects from "@/components/Projects";
 import Experience from "@/components/Experience";
+import MiniGame from "@/components/MiniGame";
 import Contact from "@/components/Contact";
 
 export default function Home() {
@@ -16,6 +17,7 @@ export default function Home() {
         <Skills />
         <Projects />
         <Experience />
+        <MiniGame />
         <Contact />
       </main>
     </div>

@@ -202,5 +202,6 @@ export const navLinks = [
   { href: "#skills", label: "ทักษะ" },
   { href: "#projects", label: "ผลงาน" },
   { href: "#experience", label: "ประสบการณ์" },
+  { href: "#minigame", label: "มินิเกม" },
   { href: "#contact", label: "ติดต่อ" },
 ];

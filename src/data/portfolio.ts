@@ -80,6 +80,24 @@ export const skills = [
 
 export const projects = [
   {
+    title: "music (waveform)",
+    desc: "เว็บฟังเพลงแบบ Spotify — อัปโหลด .mp3 เก็บไฟล์บน Cloudflare R2, metadata บน Turso มี bottom player ครบทั้ง shuffle / repeat / queue",
+    tags: ["Next.js", "Turso", "Cloudflare R2"],
+    emoji: "🎵",
+    link: "https://music-six-ashy.vercel.app",
+    github: "https://github.com/kirin58/music",
+    highlight: true,
+  },
+  {
+    title: "lode (Lost & Found)",
+    desc: "แอปแจ้งของหาย / ของเจอสำหรับนักศึกษา — Vue 3 + TypeScript + Tailwind v4 เชื่อม Neon PostgreSQL แบบ Serverless",
+    tags: ["Vue 3", "TypeScript", "Neon Postgres"],
+    emoji: "🔍",
+    link: "https://github.com/kirin58/lode",
+    github: "https://github.com/kirin58/lode",
+    highlight: true,
+  },
+  {
     title: "frontend-nexus",
     desc: "เว็บไซต์บริหารจัดการหอพัก จัดการข้อมูลผู้เช่า ห้องพัก และคำนวณค่าใช้จ่ายรายเดือน — โปรเจครายวิชา Back-End และ DevOps กลุ่ม The Nexus",
     tags: ["TypeScript", "Backend", "Vercel"],
